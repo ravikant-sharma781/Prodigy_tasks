@@ -27,8 +27,6 @@ class Solution
 public:
     void solveSudoku(vector<vector<char>> &board) const noexcept
     {
-        /* Note: input is guaranteed to be a valid board using only '1'-'9' and '.' with a unique solution.
-           Solution should modify board, not return a new one. */
 
         array<bitset<9>, 9> row_contains = {0, 0, 0, 0, 0, 0, 0, 0, 0};
         array<bitset<9>, 9> col_contains = {0, 0, 0, 0, 0, 0, 0, 0, 0};
